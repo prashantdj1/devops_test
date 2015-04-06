@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JH0X1zB9AO1bxpW+AAAA[0mDEV" build number [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwkfRfXMH1zALCwHcy/AAAA[0m7
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/tomcat7/webapps/jenkins/jobs/DEV/workspace/default
+[default] $ /bin/sh -xe /tmp/tomcat7-tomcat7-tmp/hudson7058070723325242189.sh
++ cd /var/lib/tomcat7/webapps/jenkins/build/
++ ./deploy.sh
+/tmp/tomcat7-tomcat7-tmp/hudson7058070723325242189.sh: 2: /tmp/tomcat7-tomcat7-tmp/hudson7058070723325242189.sh: ./deploy.sh: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

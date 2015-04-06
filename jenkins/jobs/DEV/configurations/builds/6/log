@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JH0X1zB9AO1bxpW+AAAA[0mDEV" build number [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwkfRfXMH0zACaAGru/AAAA[0m6
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/tomcat7/webapps/jenkins/jobs/DEV/workspace/default
+[default] $ /bin/sh -xe /tmp/tomcat7-tomcat7-tmp/hudson6912165776485193598.sh
++ grep tomcat
++ ps aux
+tomcat7  12470  2.6 34.4 328080 174812 ?       Sl   10:34   0:50 /usr/lib/jvm/default-java/bin/java -Djava.util.logging.config.file=/var/lib/tomcat7/conf/logging.properties -Djava.awt.headless=true -Xmx128m -XX:+UseConcMarkSweepGC -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -DJENKINS_HOME=/var/lib/tomcat7/webapps/jenkins/ -Djava.endorsed.dirs=/usr/share/tomcat7/endorsed -classpath /usr/share/tomcat7/bin/bootstrap.jar:/usr/share/tomcat7/bin/tomcat-juli.jar -Dcatalina.base=/var/lib/tomcat7 -Dcatalina.home=/usr/share/tomcat7 -Djava.io.tmpdir=/tmp/tomcat7-tomcat7-tmp org.apache.catalina.startup.Bootstrap start
+root     12854  6.2 33.3 451220 169400 pts/0   Sl   11:03   0:12 /usr/lib/jvm/java-7-openjdk-i386/bin/java -classpath /usr/share/maven/boot/plexus-classworlds-2.x.jar -Dclassworlds.conf=/usr/share/maven/bin/m2.conf -Dmaven.home=/usr/share/maven org.codehaus.plexus.classworlds.launcher.Launcher tomcat7:run
+tomcat7  12944  0.0  0.1   2216   548 ?        S    11:06   0:00 /bin/sh -xe /tmp/tomcat7-tomcat7-tmp/hudson6912165776485193598.sh
+tomcat7  12946  0.0  0.2   5140  1120 ?        R    11:06   0:00 ps aux
+tomcat7  12947  0.0  0.1   4624   840 ?        S    11:06   0:00 grep tomcat
+Finished: SUCCESS
